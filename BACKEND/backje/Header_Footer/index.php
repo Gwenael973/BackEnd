@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,19 +17,7 @@
  // HEADER
  include "header.php";
 
- session_start();
-if ((!isset($_SESSION['login'])) || (empty($_SESSION['login']))) 
-{
-// la variable 'login' de session est non déclarée ou vide
-echo ' <p>Petit curieux... <a href="login.php" title"Connexion">Faut se connecter mon gars !</a></p>'."\n";
-exit();
-}
 
-else{
-        
-        echo '<p style="color:#FF0000; font-weight:bold;">Bienvenue '.$_SESSION['login'].'.</p>';
-        };
-         echo '<a href="login.php">Deconnexion</a>';
 
 
 
@@ -36,37 +27,36 @@ echo '<div id="contenant"> ';
 
  $mysqlConnection = new PDO('mysql:host=localhost;dbname=menuiz;charset=utf8', 'root', '');
  $produitStatement = $mysqlConnection->prepare('SELECT * FROM T_D_PRODUCT_PRD');
-
- $produitStatement->execute();
- $produits = $produitStatement->fetchAll();
-
- // On affiche chaque produit un à un
-
-
-
- foreach ($produits as $produit) {
  ?>
-<div id="card_produit">
-        <?php  echo '<div id="produit' .$produit['PRD_ID']. '">'?>
-         <p><?php echo $produit['PRD_DESCRIPTION']; ?></p>
-         
-     
-         <?php
-         echo ' <img src=" ' . $produit['PRD_PICTURE'] .'" > ';
-         echo  'Prix: '. $produit['PRD_PRICE'].'€';
-         echo '<button class="btn btn-primary" type="submit">Button</button>';
-       
-         ?>
-         </div>
- </div>
-
-
 
 <?php
+include "functions.php";
+$produitModel=new ModeleProduct(0);
+$produitStatement=$produitModel->lireProduits();
+$produits = $produitStatement->fetchAll();
 
- } ?>
- <?php  echo '</div>'; ?>
- 
+// On affiche chaque produit un à un
+foreach ($produits as $produit) {
+     
+
+// echo "<p> ". $produit['PRD_DESCRIPTION']." </p>";
+
+
+    echo '<form action="page_produit.php" method="GET">';
+    echo '<div name ="idProduit" id="produit'.$produit['PRD_ID'].'" class="produits">';
+    echo '<div class ="container-image">';
+    echo '<a href="page_produit.php?idProduit='.$produit['PRD_ID'].'"><img src="'.$produit['PRD_PICTURE'].'"/>';
+    echo '</a></div> ';
+    echo '<p class="titre">'.$produit['PRD_DESCRIPTION'].'</p>';
+    echo '<p class="prix">'.$produit['PRD_PRICE'].' </p>';
+
+    echo '<span id"bouton_catalogue"><a href="panier.php?action=ajout&amp;l=LIBELLEPRODUIT&amp;q=QUANTITEPRODUIT&amp;p=PRIXPRODUIT"" onclick="window.open(this.href, \'\', 
+    \'toolbar=no, location=no, directories=no, status=yes, scrollbars=yes, resizable=yes, copyhistory=no, width=600, height=350\'); return false;" > </a></span>';
+    echo '</div>';
+    echo '</form>';
+}
+
+?>
 
  <?php
  echo "</main>";
