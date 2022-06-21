@@ -5,7 +5,7 @@ body {
     height: 100%
 }
 
-#contenant {
+.container-card {
     display: flex;
     flex-wrap: wrap;
     gap: 45px 50px;
@@ -14,8 +14,8 @@ body {
     margin-left: 115px;
 }
 
-#contenant p {
-    font-size: 45px;
+.produits p {
+    font-size: 35px;
     font-family: fantasy;
 }
 
@@ -28,7 +28,7 @@ body {
     border-radius: 8px;
 }
 
-#contenant img {
+.container-card img {
     height: 250px;
     width: 250px;
     border-radius: 8px;
@@ -52,7 +52,6 @@ body {
 
 
 /* PAGE INSCRIPTION */
-
 
 
 /* FIN PAGE INSCRIPTION */
@@ -101,4 +100,16 @@ span a:after {
 
 span a:hover {
     transform: translateZ(-25px) rotateX(-90deg);
+}
+
+table {
+    border: 1px solid black;
+    width: 30%;
+    background-color: grey;
+    color: white;
+}
+
+.panier a {
+    color: white;
+    font-weight: 200;
 }
