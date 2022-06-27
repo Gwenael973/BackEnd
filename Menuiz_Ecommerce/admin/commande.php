@@ -48,7 +48,7 @@ $statuts = [
     'Livré partiellement'
 ];
 
-require __DIR__ . '/../layout/top.php';
+require __DIR__ . '/../layout/top2.php';
 ?>
 <h1>Commande</h1>
 
@@ -84,7 +84,7 @@ require __DIR__ . '/../layout/top.php';
                         <?php
                         foreach ($statuts as $statut) :
                             //faire une verif en BDD pour voir si l'id enregistré dans la commande correspond au libellé de la table statuts via son id
-                            $stm = $pdo->query('select OSS_ID,OSS_WORDING from T_D_ORDERSTATUS_OSS where OSS_ID= ' . $statut . ' ');
+                            $stm = $pdo->query('select OSS_ID,OSS_WORDING from T_D_ORDERSTATUS_OSS ');
                             $commande_statut = $stm->fetchAll();
 
                             $selected = ($commande_statut[0]['OSS_ID'] == $commande['OSS_ID'])

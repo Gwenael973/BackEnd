@@ -2,7 +2,9 @@
 
 //initialisation de la session
 session_start();
-define('RACINE_WEB', ''); //ici mettez le nom du repertoire de votre appli
+define('RACINE_WEB', '');
+define('RACINE_WEB2', '');
+ //ici mettez le nom du repertoire de votre appli
 define('PHOTO_DIR', $_SERVER['DOCUMENT_ROOT'] . '/photo/');
 
 define ('PHOTO_WEB', RACINE_WEB . 'photo/');

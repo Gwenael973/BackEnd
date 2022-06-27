@@ -22,7 +22,7 @@ $produit = $stmt->fetchAll();
 
  */
 
-require __DIR__ . '/../layout/top.php';
+require __DIR__ . '/../layout/top2.php';
 ?>
 
 <h1>Gestion Produits</h1>
@@ -46,18 +46,18 @@ require __DIR__ . '/../layout/top.php';
     ?>
     <tr>
         <td><?= $item['PRD_ID']; ?></td>
-        <td><?= $item['PRD_Code']; ?></td>
+        <td><?= $item['PRD_CODE']; ?></td>
         <td><?= $item['PRD_DESCRIPTION']; ?></td>
         <td><?= $item['PTY_DESCRIPTION']; ?></td>
         <td><?=  prixFR($item['PRD_PRICE']); ?></td>
         
         <td>
             <a class="btn btn-primary"
-               href="<?= RACINE_WEB; ?>admin/produit-edit.php?id=<?= $item['PRD_ID']; ?>">
+               href="produit-edit.php?id=<?= $item['PRD_ID']; ?>">
                Modifier
             </a>
         <a class="btn btn-danger"
-               href="<?= RACINE_WEB; ?>admin/produit-delete.php?id=<?= $item['PRD_ID']; ?>" onclick="myFunction()">
+               href="produit-delete.php?id=<?= $item['PRD_ID']; ?>" onclick="myFunction()">
                Supprimer
             </a>
         </td>

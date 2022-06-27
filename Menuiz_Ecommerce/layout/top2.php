@@ -105,14 +105,10 @@
                 <a class="navbar-brand" href="#">Admin</a>
                 <div class="navbar-collapse">
                     <ul class="navbar-nav">
+                        
                         <li class="nav-item">
-                            <a class="nav-link" href="admin/produits.php">
-                                Gestion produits
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="admin/commande.php">
-                                Gestion des commandes
+                            <a     class="nav-link" onclick="history.back() ">
+                                Retour
                             </a>
                         </li>
                     </ul>
@@ -124,7 +120,7 @@
     ?>
     <nav class="navbar navbar-expand-md navbar-light " style="background-color: #e3f2fd;">
         <div class="container navbar-nav">
-            <img class="logo headLogo" src="<?= IMG_WEB; ?>MenuizMan_logo.png" alt="logo">
+            <img class="logo headLogo" src="/img/MenuizMan_logo.png" alt="logo">
             <a class="navbar-brand" href=" /index.php">Boutique</a>
            
 
@@ -153,16 +149,13 @@
                 <?php
                 endif;
                 ?>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= RACINE_WEB; ?>panier.php">Panier</a>
-                </li>
-
+              
                 <?php
     if (isUserVisitor()) :
     ?>
         
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= RACINE_WEB; ?>mescommandes.php">
+                            <a class="nav-link" href=" ">mescommandes.php">
                                 Mes Commandes
                             </a>
                         </li>

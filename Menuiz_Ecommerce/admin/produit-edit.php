@@ -164,7 +164,7 @@ $query = "SELECT * FROM T_D_PRODUCTTYPE_PTY where PTY_DESCRIPTION !='KIT' ORDER 
 $stmt = $pdo->query($query);
 $categorie = $stmt->fetchAll();
 
-require __DIR__ . '/../layout/top.php';
+require __DIR__ . '/../layout/top2.php';
 
 if (!empty($errors)) :
 ?>
