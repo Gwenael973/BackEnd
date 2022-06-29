@@ -76,6 +76,20 @@ function isUserVisitor()
         && $_SESSION['utilisateur']['role'] == 'Visitor';
 }
 
+// vvvv fais par alexis le 29 juin vvvv
+function isUserSav()
+{
+    return isUserConnected()
+        && $_SESSION['utilisateur']['role'] == 'SAV';
+}
+function isUserHotline()
+{
+    return isUserConnected()
+        && $_SESSION['utilisateur']['role'] == 'HOTLINE';
+}
+
+// ^^^^ fais par alexis ^^^^
+
 function adminSecurity()
 {
     if (!isuserAdmin() && !isUserVisitor()) {
@@ -89,6 +103,38 @@ function adminSecurity()
         die;
     }
 }
+
+// vvvv fais par alexis le 29 juin vvvv
+
+function savSecurity()
+{
+    if (!isuserAdmin() && !isUserVisitor() && !isUserSav()) {
+        if (!isUserConnected()) {
+            header('location: ' . RACINE_WEB . 'connexion.php');
+        } else {
+            header('HTTP/1.1 403 Forbidden');
+            echo "Vous n'avez pas le droit d'acceder à cette page";
+        }
+
+        die;
+    }
+}
+
+function hotlineSecurity()
+{
+    if (!isuserAdmin() && !isUserVisitor() && !isUserSav() && !isUserHotline()) {
+        if (!isUserConnected()) {
+            header('location: ' . RACINE_WEB . 'connexion.php');
+        } else {
+            header('HTTP/1.1 403 Forbidden');
+            echo "Vous n'avez pas le droit d'acceder à cette page";
+        }
+
+        die;
+    }
+}
+// ^^^^ fais par alexis ^^^^
+
 //region 'Panier'
 function prixFR($prix)
 {

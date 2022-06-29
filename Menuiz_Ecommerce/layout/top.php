@@ -98,6 +98,48 @@
 
 <body>
     <?php
+    if (isUserSav()){
+    ?>
+    <nav class="navbar navbar-expand-md navbar-dark bg-success">
+            <div class="container navbar-nav">
+                <a class="navbar-brand" href="#">SAV</a>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            
+                        </li>
+                        <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
+                            
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <?php
+    }
+    if(isUserHotline()){
+    ?>
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger">
+            <div class="container navbar-nav">
+                <a class="navbar-brand" href="#">Hotline</a>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            
+                        </li>
+                        <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
+                            
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <?php
+    }
     if (isUserAdmin()) :
     ?>
         <nav class="navbar navbar-expand-md navbar-dark bg-primary">
@@ -115,6 +157,9 @@
                                 Gestion des commandes
                             </a>
                         </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="option.php">Option</a>
+                    </li>
                     </ul>
                 </div>
             </div>

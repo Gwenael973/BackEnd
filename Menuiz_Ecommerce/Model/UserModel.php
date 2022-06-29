@@ -72,6 +72,35 @@ on USR.UTY_ID=UTY.UTY_ID
         // on retourne le dernier id
         return $id = $this->idc->lastInsertId();;
     }
+    public function InsertUserDroit($nom, $prenom, $email, $mdp,$droit)
+    {
+        $this->connexion();
+        $query = 'INSERT INTO T_D_USER_USR
+        ( USR_MAIL,
+        USR_PASSWORD,
+        USR_FIRSTNAME,
+        USR_LASTNAME,UTY_ID)
+         VALUES (
+            :email,
+            :mdp,
+            :nom,
+            :prenom,
+            :droit
+        )'; //par défaut on le met en type utilisateur visiteur
+
+        $stmt = $this->idc->prepare($query);
+        $stmt->execute([
+            ':nom' => $nom,
+            ':prenom' => $prenom,
+            ':email' => $email,
+            // enregistrement du mot de passe a l'enregistrement
+            ':mdp' => sha1($mdp),
+            ':droit'=>$droit
+        ]);
+
+        // on retourne le dernier id
+        return $id = $this->idc->lastInsertId();;
+    }
 
 
 
