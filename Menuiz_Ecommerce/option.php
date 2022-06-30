@@ -107,7 +107,7 @@ endif;
     </div>
       
         
-    <label class="offset-3   pt-3" for="pet-select">Type de droit</label>
+    <label class="offset-3   pt-3">Type de droit</label>
 
 <select name="droit" value="<?= $droit; ?>" >
     <option value="">--Choississez une option--</option>

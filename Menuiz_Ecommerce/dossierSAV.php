@@ -24,11 +24,11 @@ $produit = $stmt->fetchAll();
 <body>
 <table class="table_cat th_produits table table-striped">
     <tr>
-        <th>Id</th>
+        <th>ID-Ticket</th>
         <th>Code</th>
         <th>Description</th>
         <th>Type Produit</th>
-        <th>Prix</th>
+        <th>Etat</th>
         <th></th>
         
     </tr>

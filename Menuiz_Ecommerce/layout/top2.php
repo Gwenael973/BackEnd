@@ -137,7 +137,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?= RACINE_WEB; ?>deconnexion.php">Deconnexion</a>
+                        <a class="nav-link" href="../deconnexion.php">Deconnexion</a>
                     </li>
 
                 <?php

@@ -13,7 +13,7 @@
  */
 
 require_once __DIR__ . '/include/init.php';
-adminSecurity();
+
 
 // concat_ws(' ', u.prenom, u.nom) //concatenation valeur sql
 $query = 'SELECT C.*,U.USR_FIRSTNAME as user_name, U.USR_LASTNAME as user_prenom 
@@ -36,7 +36,7 @@ require __DIR__ . '/layout/top.php';
         <th>Prenom</th>
         <th>Date de commande</th>
         <th>Statut</th>
-        <th></th>
+        <th>Requête</th>
 
 
     </tr>
@@ -51,7 +51,7 @@ require __DIR__ . '/layout/top.php';
             <td><?= $commande['user_name']; ?></td>
             <td><?= $commande['user_prenom']; ?></td>
             <td><?= datetimeFR($commande['OHR_DATE']); ?></td>
-
+    
             <td>
                 <?php
 
@@ -63,6 +63,10 @@ require __DIR__ . '/layout/top.php';
                 ?>
 
             </td>
+            <td>  <a class="btn btn-primary"
+               href="requeteSAV.php">
+               Requête SAV
+            </a></td>
 
 
         </tr>

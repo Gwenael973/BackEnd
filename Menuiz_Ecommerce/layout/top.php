@@ -198,8 +198,9 @@
                 <?php
                 endif;
                 ?>
+             
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= RACINE_WEB; ?>panier.php">Panier</a>
+                    <a class="nav-link" href="mescommandes.php">Mes Commandes</a>
                 </li>
 
                 <?php

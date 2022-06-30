@@ -48,9 +48,59 @@ $statuts = [
     'Livré partiellement'
 ];
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 require __DIR__ . '/../layout/top2.php';
 ?>
+
+
+
+
+
+
+
+
+
 <h1>Commande</h1>
+
+<html>
+<body>
+
+<form action="phpSearchOption.php" method="post">
+Search <input type="text" name="search"><br>
+
+Column: <select name="column">
+	<option value="name">Name</option>
+	<option value="age">Age</option>
+	<option value="gender">Gender</option>
+	</select><br>
+<input type ="submit">
+</form>
+
+</body>
+</html>
 
 <!-- le tableau HTML ici -->
 <table class="table_cat th_produits table table-striped">
@@ -60,7 +110,7 @@ require __DIR__ . '/../layout/top2.php';
         <th>Prenom</th>
         <th>Date de commande</th>
         <th>Statut</th>
-        <th></th>
+        <th>SAV</th>
 
 
     </tr>
@@ -100,6 +150,7 @@ require __DIR__ . '/../layout/top2.php';
                     <button type="submit" name="modifierStatut" class="btn btn-primary ">Modifier</button>
                 </form>
             </td>
+            <td><button type="submit" name="" class="btn btn-warning ">Ticket</button></td>
 
 
         </tr>
