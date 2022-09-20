@@ -79,6 +79,7 @@ endif;
         </div>  
         <div class="form-btn-group text-right">
         <button type="submit" class="btn btn-primary">Valider</button>
+       
         </div>   
        </form>
 <?php

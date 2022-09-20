@@ -1,0 +1,121 @@
+/* CSS Document */
+	@media screen and (max-width: 320px) { /*iPhone 5/SE iOS 10.3.1*/
+		div.header_image h2{
+			height: 96px;
+			line-height: 96px;
+			width:100%;
+		}
+		div.wphi_dom_element.header_image{
+			height: 144px;
+			line-height: 144px;
+			width:100%;
+		}
+		div.wphi_dom_element.header_image > img{
+			height:auto !important;
+			width:100% !important;
+		}
+		
+	}
+	@media screen and (min-width: 321px) and (max-width: 362px) { /*GALAXY S5 ANDROID 5.0*/
+		div.header_image h2{
+			height: 108px;
+			line-height: 108px;
+			width:100%;
+		}
+		
+	}
+	@media screen and (min-width: 363px) and (max-width: 376px) { /*iPhone 6/7/8 iOS 11*/
+		div.header_image h2{
+			height: 112px;
+			line-height: 112px;
+			width:100%;
+		}
+		div.wphi_dom_element.header_image{
+			height: 144px;
+			line-height: 144px;
+			width:100%;
+		}
+		div.wphi_dom_element.header_image > img{
+			height:auto !important;
+			width:100% !important;
+		}
+		
+	}
+	@media screen and (min-width: 377px) and (max-width: 386px) { /*LG Optimus L70 Anroid 4.4.2*/
+		div.header_image h2{
+			height: 115px;
+			line-height: 115px;
+			width:100%;
+		}
+		
+	}
+	@media screen and (min-width: 387px) and (max-width: 416px) { /*iPhone 6/7/8 Plus iOS 11*/
+		div.header_image h2{
+			height: 124px;
+			line-height: 124px;
+			width:100%;
+		}
+		div.wphi_dom_element.header_image{
+			height: 144px;
+			line-height: 144px;
+			width:100%;
+		}
+		div.wphi_dom_element.header_image > img{
+			height:auto !important;
+			width:100% !important;
+		}		
+	}
+	 
+	@media screen and (min-width: 417px) and (max-width: 455px) {
+		div.header_image h2{
+			height: 130px;
+			line-height: 130px;
+			width:100%;
+		}
+		
+	}
+	
+	@media only screen 
+	and (device-width : 414px) 
+	and (device-height : 736px) 
+	and (-webkit-device-pixel-ratio : 3)  {
+		
+	
+	}
+	@media screen and (min-width: 737px) and (max-width: 768px) { /*iPad*/
+		div.header_image h2{
+			height: 230px;
+			line-height: 230px;
+			width:100%;
+		}
+		
+	}	
+	
+	@media screen and (min-width: 769px) and (max-width: 834px) {  /*iPad Pro 10.5 Inch*/
+		div.header_image h2{
+			height: 250px;
+			line-height: 250px;
+			width:100%;
+		}
+		
+	}			
+	
+	@media screen and (min-width: 835px) and (max-width: 1024px) { /*iPad Pro 12.9 Inch*/
+		div.header_image h2{
+			height: 306px;
+			line-height: 306px;
+			width:100%;
+		}
+		
+	}	
+	@media screen and (min-width: 767px) and (max-width: 1199px) {
+		
+	}
+	/* tablets/desktops and up ----------- */
+	@media (min-width: 992px) and (max-width: 1199px) {
+		
+	}
+	/* large desktops and up ----------- */
+	@media screen and (min-width: 1200px) and (max-width: 1320px) {
+		
+	}	

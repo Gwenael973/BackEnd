@@ -1,0 +1,478 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-07-05 22:55+0500\n"
+"PO-Revision-Date: 2021-07-05 23:04+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/functions-inner.php:19 inc/wphi-settings.php:204
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/functions-inner.php:19
+msgid "Default / Home"
+msgstr "Par défaut / Accueil"
+
+#: inc/functions-inner.php:25
+#| msgid "Header Images"
+msgid "Default Header Image"
+msgstr "Image d'en-tête par défaut"
+
+#: inc/functions-inner.php:30 inc/wphi-settings.php:225
+#: inc/wphi-settings.php:266 pro/wphi-premium.php:495
+#| msgid "Click here to set header image"
+msgid "Click here to submit changes"
+msgstr "Cliquez ici pour soumettre des modifications"
+
+#: inc/functions-inner.php:30 inc/wphi-settings.php:175
+#: inc/wphi-settings.php:196 inc/wphi-settings.php:225
+#: inc/wphi-settings.php:266 inc/wphi-settings.php:278
+#: inc/wphi-settings.php:301 inc/wphi-settings.php:459
+#: inc/wphi-settings.php:508 inc/wphi-settings.php:747 pro/wphi-premium.php:434
+#: pro/wphi-premium.php:495 pro/wphi-premium.php:508
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: inc/functions-inner.php:31 inc/wphi-settings.php:226
+#: inc/wphi-settings.php:267 pro/wphi-premium.php:496
+msgid "Click here to remove this header image"
+msgstr "Cliquez ici pour supprimer cette image d'en-tête"
+
+#: inc/functions-inner.php:31 inc/wphi-settings.php:226
+#: inc/wphi-settings.php:267 pro/wphi-premium.php:496
+msgid "Clear"
+msgstr "Dégager"
+
+#: inc/functions.php:1 inc/wphi-settings.php:1 index.php:1
+msgid "No script kiddies please!"
+msgstr "Pas de script kiddies s'il vous plaît !"
+
+#: inc/functions.php:63 inc/wphi-settings.php:3
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Vous ne disposez pas des autorisations suffisantes pour accéder à cette page."
+
+#: inc/functions.php:87 inc/wphi-settings.php:92 inc/wphi-settings.php:117
+msgid "Settings"
+msgstr "Paramètres"
+
+#: inc/functions.php:93 inc/functions.php:768
+msgid "Go Premium"
+msgstr "Passer en Premium"
+
+#: inc/functions.php:117
+msgid "This tempalte will reset the settings and you can continue as default."
+msgstr ""
+"Ce modèle réinitialisera les paramètres et vous pourrez continuer par défaut."
+
+#: inc/functions.php:118
+msgid "You can implement your own HTML, Styles and Scripts with this option."
+msgstr ""
+"Vous pouvez implémenter votre propre HTML, styles et scripts avec cette "
+"option."
+
+#: inc/functions.php:119
+msgid "This is a premium feature. Please Go Premium."
+msgstr ""
+"Il s'agit d'une fonctionnalité premium. S'il vous plaît, passez en Premium."
+
+#: inc/functions.php:123
+msgid "Please fill all the required fields."
+msgstr "Veuillez remplir tous les champs obligatoires."
+
+#: inc/functions.php:767
+msgid "Do you want to set header images for more post types like"
+msgstr ""
+"Voulez-vous définir des images d'en-tête pour plus de types de publication "
+"comme"
+
+#: inc/functions.php:789 inc/functions.php:979 inc/gluri-slider-support.php:28
+#: inc/wphi-settings.php:15 inc/wphi-settings.php:38 inc/wphi-settings.php:60
+#: pro/wphi-premium.php:132
+msgid "Sorry, your nonce did not verify."
+msgstr "Désolé, votre nonce n'a pas été vérifié."
+
+#: inc/gluri-slider-support.php:7
+msgid "Image Slider"
+msgstr "Curseur d'image"
+
+#: inc/gluri-slider-support.php:310
+msgid "Select Slider"
+msgstr "Sélectionnez le curseur"
+
+#: inc/gluri-slider-support.php:332
+msgid "No slider defined"
+msgstr "Aucun curseur défini"
+
+#: inc/gluri-slider-support.php:332 inc/gluri-slider-support.php:341
+#: inc/gluri-slider-support.php:364
+#| msgid "Click here"
+msgid "click here"
+msgstr "Cliquez ici"
+
+#: inc/gluri-slider-support.php:332
+msgid "to define a new slider."
+msgstr "pour définir un nouveau curseur."
+
+#: inc/gluri-slider-support.php:332 inc/wphi-settings.php:390
+#: inc/wphi-settings.php:578
+msgid "Video Tutorial"
+msgstr "Didacticiel vidéo"
+
+#: inc/gluri-slider-support.php:341 inc/gluri-slider-support.php:364
+msgid "Gluri Slider is not installed or activated"
+msgstr "Gluri Slider n'est pas installé ou activé"
+
+#: inc/gluri-slider-support.php:341 inc/gluri-slider-support.php:364
+msgid "to Install/Activate Slider Plugin."
+msgstr "pour installer/activer le plugin Slider."
+
+#: inc/gluri-slider-support.php:357 inc/gluri-slider-support.php:369
+#| msgid "Header Images"
+msgid "Header Video"
+msgstr "Vidéo d'en-tête"
+
+#: inc/wphi-settings.php:88
+msgid "Click here to download pro version"
+msgstr "Cliquez ici pour télécharger la version pro"
+
+#: inc/wphi-settings.php:88
+msgid "Already a Pro Member?"
+msgstr "Déjà membre Pro ?"
+
+#: inc/wphi-settings.php:92
+msgid "Pro"
+msgstr "Pro"
+
+#: inc/wphi-settings.php:96
+msgid "Header Images"
+msgstr "Images d'en-tête"
+
+#: inc/wphi-settings.php:97
+msgid "Styling"
+msgstr "Coiffant"
+
+#: inc/wphi-settings.php:98
+#| msgid "For Developers"
+msgid "Developers"
+msgstr "Développeurs"
+
+#: inc/wphi-settings.php:99
+msgid "How it works?"
+msgstr "Comment ça fonctionne?"
+
+#: inc/wphi-settings.php:100
+msgid "On/Off"
+msgstr "Allumé/Éteint"
+
+#: inc/wphi-settings.php:143
+#| msgid "Header Images"
+msgid "Default Image"
+msgstr "Image par défaut"
+
+#: inc/wphi-settings.php:143
+msgid "ON/OFF"
+msgstr "ALLUMÉ/ÉTEINT"
+
+#: inc/wphi-settings.php:146
+msgid "Home"
+msgstr "Domicile"
+
+#: inc/wphi-settings.php:147
+msgid "Page"
+msgstr "Page"
+
+#: inc/wphi-settings.php:148
+msgid "Post"
+msgstr "Poster"
+
+#: inc/wphi-settings.php:155
+msgid "Image Styles"
+msgstr "Styles d'images"
+
+#: inc/wphi-settings.php:155 inc/wphi-settings.php:401
+msgid "Optional"
+msgstr "Optionnel"
+
+#: inc/wphi-settings.php:158
+msgid "Width"
+msgstr "Largeur"
+
+#: inc/wphi-settings.php:166
+msgid "Height"
+msgstr "Hauteur"
+
+#: inc/wphi-settings.php:249 inc/wphi-settings.php:700 pro/wphi-premium.php:467
+msgid "Premium Feature"
+msgstr "Fonctionnalité Premium"
+
+#: inc/wphi-settings.php:280
+msgid "You need to"
+msgstr "Tu dois"
+
+#: inc/wphi-settings.php:280
+msgid "Create a Menu"
+msgstr "Créer un menu"
+
+#: inc/wphi-settings.php:280
+msgid "first"
+msgstr "premier"
+
+#: inc/wphi-settings.php:313
+msgid "Click here to go premium"
+msgstr "Cliquez ici pour passer en prime"
+
+#: inc/wphi-settings.php:318 inc/wphi-settings.php:322
+msgid "Auto Implementation"
+msgstr "Implémentation automatique"
+
+#: inc/wphi-settings.php:322
+msgid "Without Shortcodes"
+msgstr "Sans shortcodes"
+
+#: inc/wphi-settings.php:353
+msgid "is writeable."
+msgstr "est inscriptible."
+
+#: inc/wphi-settings.php:355
+msgid "is not writeable."
+msgstr "n'est pas inscriptible."
+
+#: inc/wphi-settings.php:367
+msgid ""
+"Your header.php is not writable, you may use DOM position feature for "
+"alternative implementation."
+msgstr ""
+"Votre header.php n'est pas accessible en écriture, vous pouvez utiliser la "
+"fonction de position DOM pour une implémentation alternative."
+
+#: inc/wphi-settings.php:378
+msgid "Use DOM"
+msgstr "Utiliser DOM"
+
+#: inc/wphi-settings.php:398
+msgid "DOM CSS Selector"
+msgstr "Sélecteur CSS DOM"
+
+#: inc/wphi-settings.php:401
+msgid "Delay"
+msgstr "Retard"
+
+#: inc/wphi-settings.php:401
+msgid "milliseconds"
+msgstr "millisecondes"
+
+#: inc/wphi-settings.php:403
+msgid "CSV for multiple DOM"
+msgstr "CSV pour plusieurs DOM"
+
+#: inc/wphi-settings.php:410
+#| msgid "Header Images"
+msgid "Header Image Type"
+msgstr "Type d'image d'en-tête"
+
+#: inc/wphi-settings.php:415
+msgid "Background Image"
+msgstr "Image de fond"
+
+#: inc/wphi-settings.php:418
+msgid ""
+"This option will use your inserted HTML DOM selector to show Header Image as "
+"Background Image."
+msgstr ""
+"Cette option utilisera votre sélecteur HTML DOM inséré pour afficher l'image "
+"d'en-tête comme image d'arrière-plan."
+
+#: inc/wphi-settings.php:430
+msgid "HTML Image Tag"
+msgstr "Balise d'image HTML"
+
+#: inc/wphi-settings.php:432
+msgid ""
+"This option will use your provided HTML DOM selector to insert Image tag "
+"inside it."
+msgstr ""
+"Cette option utilisera votre sélecteur DOM HTML fourni pour insérer la "
+"balise Image à l'intérieur."
+
+#: inc/wphi-settings.php:439
+#| msgid "Select any template"
+msgid "Select Placement Style"
+msgstr "Sélectionnez le style de placement"
+
+#: inc/wphi-settings.php:445
+msgid "Fill In / Replace Everything"
+msgstr "Remplir / Tout remplacer"
+
+#: inc/wphi-settings.php:446
+msgid "Before / Above Content"
+msgstr "Avant/Au-dessus du contenu"
+
+#: inc/wphi-settings.php:447
+msgid "After / Below Content"
+msgstr "Après/En dessous du contenu"
+
+#: inc/wphi-settings.php:481 inc/wphi-settings.php:491
+msgid "Manual Implementation"
+msgstr "Mise en œuvre manuelle"
+
+#: inc/wphi-settings.php:491
+msgid "With Shortcodes"
+msgstr "Avec des codes courts"
+
+#: inc/wphi-settings.php:503 inc/wphi-settings.php:547
+msgid "Select any template"
+msgstr "Sélectionnez n'importe quel modèle"
+
+#: inc/wphi-settings.php:510
+msgid "Display Page Title on Image"
+msgstr "Afficher le titre de la page sur l'image"
+
+#: inc/wphi-settings.php:521 inc/wphi-settings.php:560
+msgid "Template HTML"
+msgstr "Modèle HTML"
+
+#: inc/wphi-settings.php:524 inc/wphi-settings.php:563
+msgid "Template Styles and Scripts"
+msgstr "Styles de modèles et scripts"
+
+#: inc/wphi-settings.php:540
+msgid "Templates feature is a premium feature."
+msgstr "La fonctionnalité de modèles est une fonctionnalité premium."
+
+#: inc/wphi-settings.php:579
+msgid "For Developers"
+msgstr "Pour les développeurs"
+
+#: inc/wphi-settings.php:579
+msgid "Advanced"
+msgstr "Avancée"
+
+#: inc/wphi-settings.php:579
+msgid "Advanced/Premium"
+msgstr "Avancé/Premium"
+
+#: inc/wphi-settings.php:582
+msgid "Use following action hook instead"
+msgstr "Utilisez plutôt le crochet d'action suivant"
+
+#: inc/wphi-settings.php:600
+msgid "Expected Output"
+msgstr "Production attendue"
+
+#: inc/wphi-settings.php:605
+msgid "Sample CSS"
+msgstr "Exemple de CSS"
+
+#: inc/wphi-settings.php:622
+msgid "Get Started"
+msgstr "Commencer"
+
+#: inc/wphi-settings.php:626
+msgid "Click here to open theme"
+msgstr "Cliquez ici pour ouvrir le thème"
+
+#: inc/wphi-settings.php:630
+#| msgid "Insert any of these code snippets inside"
+msgid "Insert this code snippet inside"
+msgstr "Insérez cet extrait de code à l'intérieur"
+
+#: inc/wphi-settings.php:630 inc/wphi-settings.php:654
+msgid "tag wherever you want these header images to appear."
+msgstr "tag où vous voulez que ces images d'en-tête apparaissent."
+
+#: inc/wphi-settings.php:636
+msgid "That's it."
+msgstr "C'est ça."
+
+#: inc/wphi-settings.php:644
+msgid "This plugin is compatible with WordPress default theme function"
+msgstr ""
+"Ce plugin est compatible avec la fonction de thème par défaut de WordPress"
+
+#: inc/wphi-settings.php:646
+msgid "If your theme is using this function so no shortcode is required."
+msgstr "Si votre thème utilise cette fonction, aucun code court n'est requis."
+
+#: inc/wphi-settings.php:646
+msgid "You can simply use this plugin alternative of the default header image."
+msgstr ""
+"Vous pouvez simplement utiliser cette alternative de plugin de l'image d'en-"
+"tête par défaut."
+
+#: inc/wphi-settings.php:647
+msgid "Click here"
+msgstr "Cliquez ici"
+
+#: inc/wphi-settings.php:647
+msgid "to check if this theme is using default header image functionality?"
+msgstr ""
+"vérifier si ce thème utilise la fonctionnalité d'image d'en-tête par défaut ?"
+
+#: inc/wphi-settings.php:651
+msgid "Shortcodes"
+msgstr "Codes courts"
+
+#: inc/wphi-settings.php:654
+msgid "Insert any of these code snippets inside"
+msgstr "Insérez l'un de ces extraits de code à l'intérieur"
+
+#: inc/wphi-settings.php:673
+msgid "If you are using the following function in your custom made theme?"
+msgstr "Si vous utilisez la fonction suivante dans votre thème personnalisé ?"
+
+#: inc/wphi-settings.php:686 inc/wphi-settings.php:700
+#| msgid "Click here to go premium"
+msgid "Click here to Go Premium"
+msgstr "Cliquez ici pour passer en Premium"
+
+#: inc/wphi-settings.php:700
+msgid "Select post types for header images"
+msgstr "Sélectionnez les types de publication pour les images d'en-tête"
+
+#: inc/wphi-settings.php:724
+#| msgid "Templates feature is a premium feature."
+msgid "This is a premium feature"
+msgstr "Ceci est une fonctionnalité premium"
+
+#: index.php:57
+#| msgid "Header Images"
+msgid "Header Image"
+msgstr "Image d'en-tête"
+
+#: pro/wphi-premium.php:333
+msgid "HOME"
+msgstr "DOMICILE"
+
+#: pro/wphi-premium.php:468
+msgid "Post Type"
+msgstr "Type de poste"
+
+#: pro/wphi-premium.php:510
+msgid "No post types found."
+msgstr "Aucun type de publication trouvé."
+
+#~ msgid "title"
+#~ msgstr "Titre"
+
+#~ msgid "Templates"
+#~ msgstr "Modèles"
+
+#~ msgid "Steps to follow"
+#~ msgstr "Étapes à suivre"
+
+#~ msgid "Basic"
+#~ msgstr "De base"
+
+#~ msgid "body"
+#~ msgstr "corps"

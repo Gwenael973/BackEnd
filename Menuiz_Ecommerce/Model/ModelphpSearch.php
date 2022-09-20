@@ -5,7 +5,7 @@ $column = $_POST['column'];
 
 $servername = "localhost";
 $username = "bob";
-$password = "123456";
+$password = "";
 $db = "menuiz";
 
 $conn = new mysqli($servername, $username, $password, $db);

@@ -1,0 +1,844 @@
+@charset "utf-8";
+
+/* CSS Document */
+.wphi.wrap {
+	float: left;
+	width: 99%;
+	overflow: hidden;
+	margin: 0;
+}
+.wphi.wrap a.nav-tab{
+	cursor:pointer;
+}
+.wphi.wrap a.nav-tab:hover{
+	text-decoration:none;
+}
+.wphi.wrap a.nav-tab:not(:first-child){
+	float:right;
+}
+.wphi.wrap > a.pro{
+	background-color: #25bcf0;
+	color: #fff !important;
+	padding: 2px 30px;
+	cursor: pointer;
+	text-decoration: none;
+	font-weight: bold;
+	right: 0;
+	position: absolute;
+	top: 0;
+	box-shadow: 1px 1px #ddd;
+}
+
+.wphi .hide,
+.wphi .hides{
+	display:none;
+}
+.wphi .head_area{
+	clear:both;
+	position:relative;
+}
+.wphi .head_area > a.templates,
+.wphi .head_area > a.how {
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+}
+.wphi .head_area > a.templates{
+	right:100px;
+	top:46px;
+}
+.wphi .head_area > a.templates.clicked{
+	top:58px;
+	right:0;
+}
+.wphi .templates_area{
+	float:left;	
+	position:relative;
+	width:100%;
+}
+.wphi .templates_area .button.wphi_premium {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.wphi .templates_area .inner_area {
+	padding: 28px 0 0 0;
+	float: left;
+	width: 48%;
+	margin: 0 10px 0 0;
+	overflow: hidden;
+	position:relative;
+}
+.wphi .templates_area .inner_area > *,
+.wphi .templates_area .inner_area > section > *{
+	display:block;
+	max-width:100%;
+}
+.wphi .templates_area .inner_area > section {
+	padding: 16px 10px 16px 10px;
+	background-color: rgba(160,50,10,0.1);
+	border-radius: 10px;
+	margin: 20px 0 0 0;
+}
+.wphi .templates_area .inner_area > section .css{
+	display:block;
+	padding:0 0 0 20px;
+}
+.wphi .templates_area .inner_area > section .scode {
+	display: block;
+	padding: 16px;
+	font-size: 14px;
+	background-color: rgba(160,50,10,0.08);
+	margin: 20px 0 20px 0;
+	border-radius: 4px;
+	position: relative;
+	right: -10px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.wphi .templates_area .inner_area > section .scode:after {
+	content: "<code>";
+	position: absolute;
+	right: -18px;
+	top: 26px;
+	color: rgba(160,50,10,0.6);
+	font-size: 16px;
+	font-family: courier;
+	transform: rotate(90deg);
+}
+.wphi p.submit{
+	float:left;
+	clear:both;
+	width:100%;
+}
+.wphi p.submit input{
+	float:right;
+}
+.wphi h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    padding: 9px 15px 4px 0;
+}
+.wphi h2 span.dashicons{
+	font-size:30px;
+	margin-right:16px;
+	line-height:24px;
+}
+
+.wphi .wphi-settings {
+	padding: 0 0 0 4px;
+	float: left;
+	width: 100%;
+}
+.wphi .wphi-settings > h3 {
+	cursor: pointer;
+	font-size: 18px;
+	margin: 12px 0 12px 0;
+}
+.wphi .wphi-settings > h3 span.dashicons{
+	margin-right:4px;
+}
+.wphi .wphi-settings > ul.menu-class{
+	
+}
+.wphi .wphi-settings > ul.menu-class > li > a{
+	color:#006799;
+	text-decoration:none;
+}
+.wphi .wphi-settings > ul.menu-class > li > a.wphi_submit_btn,
+.wphi .wphi-settings > ul.menu-class > li > a.wphi_clear_btn{
+	color:#fff;
+	font-size:12px;
+	bottom:0;
+	height: auto;
+	position:absolute;
+}
+.wphi .wphi-settings > ul.menu-class > li > a.wphi_submit_btn {
+	float: left;
+	width: auto;
+	display: none;	
+}
+.wphi .wphi-settings > ul.menu-class > li > a.wphi_clear_btn{
+	right:0;
+}
+.wphi .wphi-settings > ul.menu-class > li > div.banner_wrapper {
+    background-size: 100% auto !important;
+    border: 1px dashed #fff;
+    cursor: pointer;
+    min-height: 160px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+	position:relative;
+}
+.wphi .wphi-settings > ul.menu-class > li > h4{
+	font-size:14px;
+}
+.wphi .wphi-settings > ul.menu-class > li > div.banner_wrapper span.dashicons{
+	font-size:60px;
+    position: absolute;
+	color: #006799 ;
+	min-height:300px;
+}
+
+.wphi .wphi-settings > ul.menu-class > li > div.banner_wrapper label {
+    color: #006799 ;
+    display: block;
+    font-size: 30px;
+    margin: 6% auto;
+}
+
+.wphi .wphi_cm{
+	font-size:30px;
+	text-align:center;
+	height:100px;
+	width:100%;
+}
+.wphi .wphi_cmm {
+	font-size: 16px;
+	line-height: 28px;
+	position: absolute;
+	bottom: 34px;
+	right:0;
+	text-align: center;
+	border-top: 1px solid #32373C;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.wphi .wphi_cm a{
+	font-size:26px;
+	color: #fff;
+}
+.wphi ul.wphi_banners li > a {
+    background-color: #006799;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    height: 18px;
+    margin: 10px 0 0;
+    padding: 4px 14px;
+    text-align: center;
+    width: 60px;	
+}
+.wphi .wphi_cmm li a{
+	padding: 2px 8px 6px;
+	line-height: 16px;
+	display: inline-block;
+	border-radius: 14px;
+}
+.wphi ul.wphi_cmm li a.wphi_premium {
+	text-decoration: none;
+	float: right;
+	background-color: #25bcf0;
+	color: #fff;
+	font-size: 12px;
+	padding: 2px 22px 4px;
+}
+.wphi ul.wphi_cmm li a.wphi_premium:hover,
+.wphi ul.wphi_cmm li a:hover{
+	background-color: red;
+	color: #fff;
+}
+.wphi .pre {
+    background-color: #fff;
+    border-color: #006799;
+    border-style: solid;
+    border-width: 1px 2px;
+    color: #006799;
+    font-size: 14px;
+	white-space: initial;
+    width: 100%;
+}
+.wphi .pre img{
+	max-width:100%;
+}
+
+.wphi .pre .shortcode_area > b,
+.wphi .pre .templates_area > b {
+    background-color: #006799;
+    color: #fff;
+    display: block;
+    font-size: 23px;
+    margin: 0;
+    padding: 28px 0 28px 28px;
+	clear:both;
+}
+.wphi .pre .templates_area > b.wphi_pro {
+    background-color: #EFAE08;
+}
+.wphi form.templates{
+	margin: 0 0 60px;
+	padding:0 20px 0 0;	
+	float:left;
+	width:100%;
+	min-height:400px;	
+}
+.wphi form.templates {
+	
+}
+.wphi form.templates ul{
+	margin:0;
+	padding:0;
+	float:left;
+	width:100%;
+}
+.wphi form.templates ul li{
+	border:2px solid #EFAE08;
+	padding:2px;
+	cursor:pointer;
+	width:98%;
+}
+.wphi form.templates ul li.selected{
+	background-color: #EFAE08;
+}
+.wphi form.templates ul li img{
+	height:100px;
+	margin:0;
+	padding:0;	
+	
+	
+	
+}
+.wphi form.templates ul li .wphi_template_custom{
+	display:none;
+}
+.wphi form.templates ul li.selected .wphi_template_custom{
+	display:block;
+}
+.wphi form.templates ul li textarea{
+	width:100%;
+}
+.wphi form.templates ul li textarea.template_str{
+	height:80px;
+}
+.wphi form.templates ul li textarea.template_scripts{
+	height:300px;
+}
+.wphi form.templates .button{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.wphi form.templates .button[type="submit"] {
+	position: absolute;
+	right: 32px;
+	top: 0;
+}
+.wphi .pre ol {
+    color: #006799;
+    list-style: inside none decimal;
+	margin:40px 20px;
+	padding:0;
+
+}
+.wphi .pre ol li{
+	padding:20px;
+	margin:0;
+	position:relative;
+}
+.wphi .pre ol li.wphi_manual{
+	background-color:#0B6531;
+	color:#fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;	
+}
+.wphi .pre ol li.wphi_premium {
+	background-color: #FFF;
+}
+.wphi .pre ol li.wphi_custom {
+	background-color: #FFF;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom: 20px dashed #000;
+}
+
+.wphi .pre ol li.wphi_manual:after,
+.wphi .pre ol li.wphi_default:after,
+.wphi .pre ol li.wphi_premium:after,
+.wphi .pre ol li.wphi_custom:after{
+	content:"Custom";
+	position:absolute;
+	right:20px;
+	top:20px;
+	font-size:40px;
+
+}
+.wphi .pre ol li.wphi_default:after{
+	content:"Auto";
+}
+.wphi .pre ol li.wphi_premium:after{
+	content:"Premium Shortcodes";
+}
+.wphi .pre ol li.wphi_custom:after{
+	content:"Custom Made Themes";
+}
+.wphi .pre ol li.wphi_manual a{
+	color:#FF0;
+}
+.wphi .pre ol li.wphi_default{
+
+	background-color:#03BDF8;
+	color:#fff;
+}
+.wphi .pre ol li.wphi_default a{
+	color:#FF0;
+}
+.wphi .pre ol li span{
+	width:50%;
+	display:block;
+	padding:20px;
+	
+}
+.wphi form.templates ul li strong {
+  color: #000;
+  float: right;
+  font-size: 12px;
+}
+.wphi_template_custom > label {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.wphi .nav-tab-content.templates_wrapper{
+	background-color:#FFF;
+	padding:20px;
+	float:left;
+	width:100%;
+}
+.wphi .nav-tab-content.styling{
+	padding:30px 0 0 0;
+	
+}
+.wphi .nav-tab-content.styling textarea{
+	width:49%;
+	height:500px;
+}
+.wphi .nav-tab-content.styling iframe{
+	width:49%;
+	height:400px;
+	float:right;
+}
+.wphi .wphi_vt {
+	float: right;
+	font-size: 16px;
+	background-color: rgba(237,28,36,0.9);
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	transform: rotate(90deg);
+	position: absolute;
+	right: -40px;
+	top: 40px;
+}
+.wphi h3.premium{
+}
+.wphi h3.premium .dashicons:before{
+	color:#926601;
+}
+
+.wphi h3 .dashicons-admin-page{
+	color: #ac783f;
+}
+.wphi .wphi-on-off-wrapper{
+	float:left;
+	width:49%;
+}
+.wphi .post_types_wrapper{
+	
+}
+.wphi .post_types_wrapper ul,
+.wphi .wphi_on_off_options ul{
+	float:left;
+	width:100%;
+}
+.wphi_on_off_options li div.form-check input[type="radio"] {
+	position: relative;
+	top: 10px;
+}
+.wphi .post_types_wrapper iframe{
+	float:right;
+	width:49%;
+	height:400px;	
+}
+.wphi .post_types_wrapper .submit-wrapper{
+	float:left;
+	width:100%;
+	margin:30px 0 0 0;
+}
+.wphi .wphi-premium-features {
+	display: block;
+	cursor: pointer;
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 100px 0 100px 0;
+	text-align:center;
+}
+.wphi .wphi-premium-features img{
+	max-width:100%;
+}
+
+
+/* The switch - the box around the slider */
+.wphi_switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.wphi_switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.wphi_slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.wphi_slider:before {
+	position: absolute;
+	content: "";
+	height: 20px;
+	width: 20px;
+	left: 8px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .wphi_slider {
+	background-color: #2196F3;
+}
+
+input:focus + .wphi_slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .wphi_slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.wphi_slider.wphi_round {
+	border-radius: 34px;
+}
+
+.wphi_slider.wphi_round:before {
+	border-radius: 50%;
+}
+
+.wphi .dashicons.writeable{
+
+	color: #28a745;
+
+}
+
+.wphi .dashicons.not_writeable{
+
+	color: #dc3545;
+
+}
+
+.wphi_dom_area table td select,
+.wphi_dom_area table td input[type="text"]{
+
+	width : 400px;
+}
+
+.wphi_dom_area table th{
+	padding-top: 5px;
+}
+
+.wphi_dom_area table td{
+	padding-top: 5px;
+}
+
+.wphi_dom_area table td .help_text,
+.wphi_dom_area table td .help_text{
+
+
+	color : #999898;
+
+}
+
+.wphi_dom_area table td span.help_text{
+
+	display : inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+
+}
+
+.wphi_dom_area table.form-table tr.input_row.dom_off{
+
+	opacity : 0.2;
+
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.wphi .how_work .accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	position: relative;
+	border-bottom: 1px solid lightgrey;
+}
+
+.wphi .how_work .accordion .dashicons {
+
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+
+
+.wphi .how_work .accordion.first .plus {
+
+	display: none;
+}
+
+.wphi .how_work .accordion:not(.first) .minus {
+
+	display: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.wphi .how_work .active, .wphi .how_work .accordion:hover {
+	background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.wphi .how_work .panel {
+	padding: 0 18px;
+	background-color: white;
+	overflow: hidden;
+	border: 1px solid lightgrey;
+	display:none;
+}
+
+
+.wphi .how_work .accordion_wrapper{
+
+	margin : 25px;
+	box-shadow: 0 0 10px #b7b7b7;
+
+}
+.wphi .accordion_wrapper div.panel {
+	display: none;
+	float: left;
+	padding: 30px 0 0;
+	width:100%;
+}
+.wphi .how_work .accordion_wrapper div.panel{
+	padding: 30px;
+}
+
+.wphi .how_work.pre{
+	color: black;
+}
+.wp-core-ui .button.wphi-settings-button{
+
+	margin-top: 20px !important;
+	float: right;
+	padding-bottom: 2px;
+}
+
+.wp-core-ui .button.wphi-settings-button .dashicons{
+
+	vertical-align: middle;
+}
+
+
+.wphi_sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 100;
+	top: 32px;
+	right: 0;
+	background-color: #23282d;
+	overflow-x: hidden;
+	padding-top: 40px;
+	transition: 0.5s;
+}
+
+
+
+.wphi_sidebar .wphi_close_btn {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 22px;
+	margin-left: 50px;
+	box-shadow: none;
+	text-decoration: none;
+	color: white;
+}
+
+.wphi_sidebar .wphi_close_btn:hover{
+	color: #ff000096;
+}
+
+.wphi_open_btn {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+}
+
+.wphi_open_btn:hover {
+	background-color: #444;
+}
+
+.wphi_sidebar .input_wrapper{
+	padding: 10px 20px;
+}
+.wphi_sidebar .input_wrapper .wphi_form_group h4{
+	color:#fff;
+	font-size:16px;
+}
+.wphi_form_group{
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.wphi_form_group a.suffix{
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+
+.wphi_form_group input{
+	width: 100%;
+	margin: 10px 0;
+}
+.wphi_form_group input[type="checkbox"]{
+	width:auto;
+}
+
+.wphi_form_group input[type="number"]{
+	width: 85%;
+
+}
+
+
+.wphi_form_group label{
+	color: #eeeeee;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	display: block;
+}
+
+
+.wphi_range {
+	-webkit-appearance: none;
+	width: 100%;
+	height: 15px;
+	border-radius: 5px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 1;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+
+.wphi_range::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #0073aa;
+	cursor: pointer;
+}
+
+.wphi_range::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #0073aa;
+	cursor: pointer;
+}
+.wphi-vt {
+	margin: 0 0 0 264px;
+	font-size: 12px;
+	text-decoration: none;
+	color: goldenrod;
+}
+@-webkit-keyframes wphi_spinner {
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes wphi_spinner {
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.wphi_spinner {
+	color: #0073aa;
+	display: none;
+	width: 1rem;
+	height: 1rem;
+	vertical-align: middle;
+	border: 0.25em solid currentColor;
+	margin: 5px;
+	border-right-color: transparent;
+	border-radius: 50%;
+	-webkit-animation: wphi_spinner .75s linear infinite;
+	animation: wphi_spinner .75s linear infinite;
+}
+
+.wphi_done{
+	color: #0073aa;
+	font-size: 25px;
+	vertical-align: middle;
+}
+.wphi-ww-ss {
+	color: rgba(237,28,36,0.9);
+	margin: 0 0 0 100px;
+}
+.wphi.wrap a.nav-tab[data-tab="help"] {
+
+}
+.wphi .nav-tab-content.templates_wrapper {
+	padding: 40px 0;
+}
+.wphi .nav-tab-content.post_types_wrapper {
+	padding: 20px 0;
+}

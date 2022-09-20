@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 1000px;
+}
+
+.card-produit {
+    height: 500px;
+    overflow: hidden;
+}
+
+.container-card img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+footer {
+    background-color: #e3f2fd;
+}
+
+h1 {
+    color: #FFFFFF;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5
+}

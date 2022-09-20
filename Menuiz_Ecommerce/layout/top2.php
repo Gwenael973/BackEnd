@@ -100,7 +100,7 @@
     <?php
     if (isUserAdmin()) :
     ?>
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary border border-primary   " >
             <div class="container navbar-nav">
                 <a class="navbar-brand" href="#">Admin</a>
                 <div class="navbar-collapse">
@@ -121,7 +121,7 @@
     <?php
     endif;
     ?>
-    <nav class="navbar navbar-expand-md navbar-light " style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-md navbar-light border border-primary " style="background-color: #e3f2fd;">
         <div class="container navbar-nav">
             <img class="logo headLogo" src="/img/MenuizMan_logo.png" alt="logo">
             <a class="navbar-brand" href=" /index.php">Boutique</a>

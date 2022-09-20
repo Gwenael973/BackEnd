@@ -2,6 +2,7 @@
 
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
     <title>Boutique</title>
     <style>
         .table_cat {
@@ -100,7 +101,7 @@
     <?php
     if (isUserSav()){
     ?>
-    <nav class="navbar navbar-expand-md navbar-dark bg-success">
+    <nav class="navbar navbar-expand-md navbar-dark bg-success  border border-primary   ">
             <div class="container navbar-nav">
                 <a class="navbar-brand" href="#">SAV</a>
                 <div class="navbar-collapse">

@@ -3,7 +3,7 @@
   <footer class="bg-dark text-center text-white ">
   <img class="logo footLogo mt-5 " src="img\MenuizMan_logo.png" alt="logo">
   <!-- Grid container -->
-  <div class="container p-4 pb-0">
+  <div class="container  pb-0">
     
     <!-- Section: Form -->
     <section class="">
