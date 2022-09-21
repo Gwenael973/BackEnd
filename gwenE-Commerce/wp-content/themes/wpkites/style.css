@@ -130,6 +130,7 @@ blockquote {
   color: #333333;
   font-weight: 400;
 }
+h3.theme-dtl{display:none !important;}
 
 blockquote cite { color: #a5a5a5; font-size: 1.000rem; display: block; font-style: normal; font-weight: 400; margin-top: 0.5em; }
 
@@ -1065,6 +1066,7 @@ a { color: #333333; text-decoration: none !important; transition: 0.3s;cursor: p
 }
 @media (max-width: 768px){
 /*Toggle Button*/
+	.page-title-section{background-color:black !important;}
 .navbar-toggler:hover,.navbar-toggler:focus { background-color: transparent;}
 .navbar-toggler {border-color: rgba(0,0,0,.1);}
 }

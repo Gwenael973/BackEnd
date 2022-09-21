@@ -13,6 +13,7 @@
  */
 get_header();
 
+
 wpkites_breadcrumbs();
 
 if((get_post_meta(get_the_ID(),'wpkites_site_layout', true )=='wpkites_site_layout_stretched') || (get_theme_mod('page_sidebar_layout','right')=='stretched')) {

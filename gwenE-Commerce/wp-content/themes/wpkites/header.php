@@ -17,7 +17,7 @@
         wp_head(); ?>   
     </head>
 <?php
-if(get_theme_mod('banner_enable',true)==true) { $wpkites_banner='banner'; } else { $wpkites_banner='remove-banner'; }
+if(get_theme_mod('banner_enable',true)==true) { $wpkites_banner='remove-banner'; } else { $wpkites_banner='remove-banner'; }
 if(get_theme_mod('wpkites_layout_style', 'wide') == "boxed") { $wpkites_class = "boxed"; } else { $wpkites_class = "wide"; } ?>
 <body <?php body_class($wpkites_class." ". $wpkites_banner." ".get_theme_mod('wpkites_color_skin','dark')); ?> >
     <?php wp_body_open(); ?>

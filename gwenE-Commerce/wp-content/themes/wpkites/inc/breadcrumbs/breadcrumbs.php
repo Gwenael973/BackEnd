@@ -8,7 +8,7 @@ if (!function_exists('wpkites_breadcrumbs')):
         $hide_show_banner = get_theme_mod('banner_enable', true);
         $breadcrumb='';
         if ($hide_show_banner == true) {?>
-            <section class="page-title-section" <?php if (get_header_image()) { ?> style="background:url('<?php header_image(); ?>')" <?php } ?>>		
+<!--             <section class="page-title-section"  style="background:url(https://i.pinimg.com/originals/88/f1/2d/88f12dfbdb65bcae1a5c1a93667e04e3.jpg );>		 -->
                 <div class="breadcrumb-overlay" style="background-color: rgba(0,0,0,0.6);">
                     <div class="container">
                         <div class="row">
